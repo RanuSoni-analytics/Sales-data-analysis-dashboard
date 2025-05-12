@@ -5,24 +5,20 @@
 2. Project Decription:   The "Sales Data Visualization and Insights Dashboard" is an interactive Power BI project designed to provide a comprehensive view of a company's sales performance. This dashboard visualizes key sales metrics such as total revenue, sales volume, profit margins, top-performing products, regional sales distribution, and customer segments. By leveraging slicers and filters, users can dynamically explore trends over time, compare performance across regions and categories, and identify actionable insights. The goal of this project is to enable data-driven decision-making by transforming raw sales data into clear, impactful visuals.
 
 3. Tech Stack:
-Power BI:
-Used as the primary data visualization tool to create interactive dashboards, charts, KPIs, and slicers for dynamic filtering and insights.
+   Power BI: Used as the primary data visualization tool to create interactive dashboards, charts, KPIs, and slicers for dynamic filtering and insights.
 
-Microsoft Excel / CSV:
-Utilized as the data source containing raw sales data, including transactional records, customer details, product categories, and regional sales.
+   Power Query: Employed within Power BI for data transformation, cleaning, filtering, and merging datasets before visualization.
 
-Power Query:
-Employed within Power BI for data transformation, cleaning, filtering, and merging datasets before visualization.
+   DAX (Data Analysis Expressions): Used to create calculated columns, measures, and custom KPIs (e.g., total sales, profit margin, YoY growth) for advanced 
+   analytics.
 
-DAX (Data Analysis Expressions):
-Used to create calculated columns, measures, and custom KPIs (e.g., total sales, profit margin, YoY growth) for advanced analytics.
-
-Data Modeling:
-Implemented relationships between multiple tables (e.g. Product dimension table, Customer Dimension Table, Promotion Dimension Table and Fact table ) to enable accurate and efficient analysis.
+   Data Modeling: Implemented relationships between multiple tables (e.g. Product dimension table, Customer Dimension Table, Promotion Dimension Table and Fact 
+   table) to enable accurate and efficient analysis.
 
 
 4. Data Source:   
-    Microsoft Excel / CSV:  Utilized as the data source containing raw sales data, including transactional records, customer details, product categories, and regional sales.
+    Microsoft Excel / CSV:  Utilized as the data source containing raw sales data, including transactional records, customer details, product categories, and 
+    regional sales.
 
 
 5. Key Questions to address Business Problems:
